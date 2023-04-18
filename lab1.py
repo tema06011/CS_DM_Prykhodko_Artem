@@ -51,7 +51,7 @@ class Graph:
         return result
 
 # read the matrix from file
-filename = "matrix.txt"
+filename = "matrix_1.txt"
 with open(filename) as f:
     matrix = [list(map(int, line.split())) for line in f.readlines()]
 
