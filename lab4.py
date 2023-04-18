@@ -37,7 +37,7 @@ class Graph:
                 v = parent[v]
         return max_flow
 
-with open('graph.txt', 'r') as f:
+with open('matrix_4', 'r') as f:
     graph = [[int(num) for num in line.split()] for line in f]
 
 g = Graph(graph)
