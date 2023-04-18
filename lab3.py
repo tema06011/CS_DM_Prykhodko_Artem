@@ -11,7 +11,7 @@ def tsp(matrix):
     return min_cost, best_path 
 
 
-with open('matrix.txt', 'r') as f:
+with open('matrix_3.txt', 'r') as f:
     matrix = [[int(num) for num in line.split()] for line in f.readlines()]
 
 t=tsp(matrix)
